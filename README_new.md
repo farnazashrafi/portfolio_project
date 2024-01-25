@@ -149,7 +149,7 @@ These preprocessing steps contribute to a refined and informative dataset, optim
 ## Model training
 In this section, we tested various models like K-Nearest Neighbors (KNN), XGBoost, Logistic Regression, Support Vector Classifier (SVC), Random Forest, and Decision Tree. We carefully trained and evaluated each model, addressing tasks such as data preparation and scaling. A systematic pipeline was followed, and fine-tuning through Grid Search Hyperparameter optimization helped us identify the most effective model among these options. This thorough process boosts our confidence in the chosen model's reliability and performance in the overall evaluation.
 
-![Project Image](./results_table.jpg)
+![Project Image](./pictures/results_table.jpg)
 
 
 <!-- Model Interpretation -->
@@ -173,11 +173,11 @@ In this diagram, you can see the importance of features based on Gini Impurity i
 
 As it can be seen, with the increase in power from 8000 watts, the average probability of machine failure increases.
 
-![Project Image](power_pdp.jpg)
+![Project Image](./pictures/power_pdp.jpg)
 
 You can also see the effect of tool wear with an increase of more than 200 minutes.
 
-![Project Image](tool_wear.jpg)
+![Project Image](./pictures/tool_wear.jpg)
 
 
 
