@@ -167,7 +167,7 @@ Together, PDPs and feature importance analysis provide a comprehensive understan
 
 In this diagram, you can see the importance of features based on Gini Impurity in Random Forest model, and as you can see, there are 4 features that have the most influence on dividing target values.
 
-![Project Image](feature_importance.jpg)
+![Project Image](./pictures/feature_importance.jpg)
 
 2) PDP plot
 
