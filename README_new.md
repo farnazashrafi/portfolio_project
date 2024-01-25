@@ -145,11 +145,12 @@ Identified and dropped irrelevant or redundant columns to streamline the dataset
 These preprocessing steps contribute to a refined and informative dataset, optimizing it for machine learning algorithms. The combination of encoding techniques, feature creation, and dimensionality reduction enhances model performance and interpretability.
  
 
-<!-- Model tarining -->
-## Model tarining
+<!-- Model training -->
+## Model training
 In this section, we tested various models like K-Nearest Neighbors (KNN), XGBoost, Logistic Regression, Support Vector Classifier (SVC), Random Forest, and Decision Tree. We carefully trained and evaluated each model, addressing tasks such as data preparation and scaling. A systematic pipeline was followed, and fine-tuning through Grid Search Hyperparameter optimization helped us identify the most effective model among these options. This thorough process boosts our confidence in the chosen model's reliability and performance in the overall evaluation.
 
-![Project Image](results_table.jpg)
+![Project Image](./results_table.jpg)
+
 
 <!-- Model Interpretation -->
 ## Model Interpretation
