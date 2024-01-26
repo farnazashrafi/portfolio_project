@@ -130,10 +130,9 @@ numpy as np, matplotlib.pyplot as plt, pickle, sqlalchemy as sa), the following 
     plt.show()
 with the "column" order always using the numerical features like air temperature, process temperature, tool wear, torque and rotational speed. On the contrary, the categorical features, with type and machine failures themself, had been used for the "by" order.
 
-The highest scattering we mostly had in the rotational speed features (torque as second), maybe because of very many different values, and most of them in class 0. The boxplots with the widest range of definitive values was in the tool wear [min] feature, with machine failure = 1. Sorted by types, the L-group also had the widest range in tool wear, with the highest scattering in rotational speed.
-
 ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/b99fb757-66da-47ab-a42a-f7ba0ec1c675)
 
+The highest scattering we mostly had in the rotational speed features (torque as second), maybe because of very many different values, and most of them in class 0. The boxplots with the widest range of definitive values was in the tool wear [min] feature, with machine failure = 1. Sorted by types, the L-group also had the widest range in tool wear, with the highest scattering in rotational speed.
 
 An oversight over all boxplots and the most important key figures you find in the following file:
 
