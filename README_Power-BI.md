@@ -148,8 +148,7 @@ Two sets of histograms were created, one for both binary features (0 and 1) and 
 ## Influences
 For the last set of graphics we inspected the size range of the numerical features that had the biggest influence on machine failures. Here we chose the visual "Wichtige Einflussfaktoren" (engl.: important influence factors) with the sum of machine failures in the analysis part and the numerical features in the explanation part. Due to the fact that the tool wear didn't have a direct influence on the machine failures, we used here the sum of tool wear, combined with the normal value, as analysis.
 
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/bd2b5288-8654-4289-a29a-577872ec2b67)
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/6e27cc13-3ee3-4e47-96a4-e313319dee62)
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/3e3f7827-929c-4576-9f68-a528e75223db)
 
 An oversight of all graphics created for this project you find in the following file:
 
