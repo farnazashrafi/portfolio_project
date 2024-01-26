@@ -133,7 +133,7 @@ For the last set of graphics we inspected the size range of the numerical featur
 
 An oversight of the graphics you find in the following file:
 
-![Project Image](./pictures/Power-BI-Grafix.pdf)
+![Project Image](./pictures/Power-BI-Visualization.pdf)
 ## Built With
 
 - [Python](https://www.python.org/)
