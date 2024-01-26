@@ -73,13 +73,13 @@
 
 Introduction
 
-This project was supported by the Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train, had also been used on  
+This project was supported by the Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train, had also been used for diverse reports on kaggle.com.   
 
 
 
 <!-- DATA PREPARATION -->
 ## Data preparation
-1) Task and Data description 
+1) Data description 
 * Type: consisting of a letter L, M, or H for low, medium and high as product quality variants.
 * air temperature [K]: generated using a random walk process later normalized to a standard deviation of 2 K around 300 K.
 * process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
@@ -96,10 +96,12 @@ This project was supported by the Power BI software that gives a good help in th
 
 If at least one of the above failure modes is true, the process fails and the 'machine failure' label is set to 1. It is therefore not transparent to the machine learning method, which of the failure modes has caused the process to fail.
 
-
+2) Download
+3) Power-BI
 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
+For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features on the x-bar and the sum machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
 
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
 ## Role of product quality variants
@@ -228,7 +230,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name  - domenic-saheb@web.de
 
-Project Links: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project)
+Project Links: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project),
 [https://github.com/Ruddelduddel/Project_Portfolio_2024](https://github.com/Ruddelduddel/Project_Portfolio_2024)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
