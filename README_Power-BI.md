@@ -71,9 +71,7 @@
 <!-- ABOUT THE WORK WITH POWER BI -->
 ## About The Work with Power BI
 
-Introduction
-
-For this part of the project we need the Microsoft Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train.csv, had also been used for diverse reports like "XGBoost Binary Classifier" or "Binary Classification of Machine Failures" and is downloadable.
+For the EDA part of the project we need the Microsoft Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train.csv, had also been used for diverse reports like "XGBoost Binary Classifier" or "Binary Classification of Machine Failures" and is downloadable.
 
 <!-- DATA PREPARATION -->
 ## Data preparation
