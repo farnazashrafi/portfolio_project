@@ -125,10 +125,15 @@ The Table Heatmap 3.5.0 had been used to compare the categorical features with t
 
 <!-- HISTOGRAMS -->
 ## Histograms
+Two sets of histograms were created, one for both binary features (0 and 1) and one only for feature 1. In every set five histograms (made by Histogram 2.1.1) had been created, one for every numerical feature. This histogram sets worked with number of machine failures as frequency and the values of the numerical features as values. For the two air temperature histograms it was important to filter out three outliers, having much higher values than the other ones and changing the look of the visuals drastically. You could change the number of bars by going to "Visual formatieren", choose common options and change the number of classes (German: "Klassen).
 
 <!-- INFLUENCES -->
 ## Influences
+For the last set of graphics we inspected the size range of the numerical features that had the biggest influence on machine failures. Here we chose the visual "Wichtige Einflussfaktoren" (engl.: important influence factors) with the sum of machine failures in the analysis part and the numerical features in the explanation part. Due to the fact that the tool wear didn't have a direct influence on the machine failures, we used here the sum of tool wear, combined with the normal value, as analysis.
 
+An oversight of the graphics you find in the following file:
+
+![Project Image](./pictures/Power-BI-Grafix.pdf)
 ## Built With
 
 - [Python](https://www.python.org/)
