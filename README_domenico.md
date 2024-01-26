@@ -54,21 +54,14 @@
 ## Table of Contents
 
 1. [About the Work with Power-BI](#about-the-work-with-power-bi)
-   - [Introduction](#introduction)
 2. [Data preparation](#data-preparation)
-   - [Source](#source)
-   - [One-Hot Encoding](#one-hot-encoding)
-   - [Label Encoding](#label-encoding)
-   - [New Feature Creation](#new-feature-creation)
-   - [PCA for Correlated Features](#pca-for-correlated-features)
-   - [Feature Selection](#feature-selection)
-2. [Categorical and Binary Features](#Categorial_and_binary_features)
-2. [Role of product quality variants](#Role-of-product-quality-variants)
-2. [Feature Distributions](#feature-distributions)
-4. [Heatmap](#heatmap)
-5. [Histograms](#histograms)
-6. [Influences](#influences)
-7. [Contact](#contact)
+3. [Categorical and Binary Features](#Categorial_and_binary_features)
+4. [Role of product quality variants](#Role-of-product-quality-variants)
+5. [Feature Distributions](#feature-distributions)
+6. [Heatmap](#heatmap)
+7. [Histograms](#histograms)
+8. [Influences](#influences)
+9. [Contact](#contact)
 
 
 <!-- ABOUT THE WORK WITH POWER BI -->
@@ -80,7 +73,7 @@ This project was supported by the Power BI software that gives a good help in th
 This work is placed in the field of Data Science with application to the area of predictive maintenance. The need to have a way to determine whether or not a particular machine will fail, as well as the nature of the failure, is essential for generation 4.0 industries. The main reason lies behind the following consideration: the repair or replacement of a faulty machine generally requires costs that are much higher than those required for the replacement of a single component. Therefore, the installation of sensors that monitor the state of the machines, collecting the appropriate information, can lead to great savings for industries.
 
 
-<!-- Data set explaination -->
+<!-- DATA PREPARATION -->
 ## Data set explaination
 1) Task and Data description 
 * Type: consisting of a letter L, M, or H for low, medium and high as product quality variants.
@@ -101,7 +94,7 @@ If at least one of the above failure modes is true, the process fails and the 'm
 
 
 
-<!-- Data Preparation -->
+<!-- Categorical and Binary Features -->
 ## Data Preparation
 Data preparation is a crucial phase in data science projects, encompassing various steps to ensure that raw data is transformed into a format suitable for analysis and modeling. Starting with the collection of relevant data from diverse sources, the process involves cleaning to handle missing values, outliers, and errors. Exploratory Data Analysis (EDA) is then conducted to gain insights into dataset characteristics, followed by feature engineering to enhance model performance through the creation or modification of features. Further steps include data transformation, handling categorical data, splitting the dataset into training and testing sets, scaling numerical features, and addressing imbalances in the target variable. Validation of the prepared dataset ensures alignment with project goals, contributing to the accuracy and effectiveness of subsequent machine learning or statistical modeling phases.
 <!-- Training_test split -->
