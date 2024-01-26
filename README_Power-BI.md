@@ -134,7 +134,9 @@ https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/jupyter_bo
 <!-- HEATMAP -->
 ## Heatmap
 The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For the id classes we went into the editor, making an additional column that only showed the first three letters of the ids. Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/d4aeb467-e15d-4185-9378-95a60b5c3aea)
+
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/fb740435-5651-4297-b663-e1af8934f3da)
+
 <!-- HISTOGRAMS -->
 ## Histograms
 Two sets of histograms were created, one for both binary features (0 and 1) and one only for feature 1. In every set five histograms (made by Histogram 2.1.1) had been created, one for every numerical feature. This histogram sets worked with number of machine failures as frequency and the values of the numerical features as values. For the two air temperature histograms it was important to filter out three outliers, having much higher values than the other ones and changing the look of the visuals drastically. You could change the number of bars by going to "Visual formatieren", choose common options and change the number of classes (German: "Klassen).
