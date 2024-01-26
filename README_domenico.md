@@ -55,7 +55,7 @@
 
 1. [About the Work with Power-BI](#about-the-work-with-power-bi)
 2. [Data preparation](#data-preparation)
-3. [Categorical and binary features](#categorial-and-binary-features)
+3. [Categorical and binary features](#categorical-and-binary-features)
 4. [Role of product quality variants](#Role-of-product-quality-variants)
 5. [Feature Distributions](#feature-distributions)
 6. [Heatmap](#heatmap)
