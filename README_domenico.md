@@ -64,7 +64,7 @@
 9. [Built With](#built-with)
 10. [Usage](#usage)
 11. [Contributing](#contributing)
-12. [License])(#license)
+12. [License](#license)
 13. [Contact](#contact)
 
 
@@ -229,7 +229,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name  - domenic-saheb@web.de
 
 Project Links: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project)
-()
+[https://github.com/Ruddelduddel/Project_Portfolio_2024](https://github.com/Ruddelduddel/Project_Portfolio_2024)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
