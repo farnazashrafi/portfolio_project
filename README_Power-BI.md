@@ -127,6 +127,10 @@ numpy as np, matplotlib.pyplot as plt, pickle, sqlalchemy as sa), the following 
     plt.show()
 with the "column" order always using the numerical features like air temperature, process temperature, tool wear, torque and rotational speed. On the contrary, the categorical features, with type and machine failures themself, had been used for the "by" order.
 
+An oversight over all boxplots and the most important key figures you find in the following file:
+
+https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/jupyter_boxplots.pdf
+
 <!-- HEATMAP -->
 ## Heatmap
 The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For the id classes we went into the editor, making an additional column that only showed the first three letters of the ids. Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
@@ -261,11 +265,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name  - domenic-saheb@web.de
 
-Project Links: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project),
-[https://github.com/Ruddelduddel/Project_Portfolio_2024](https://github.com/Ruddelduddel/Project_Portfolio_2024)
+Project Links: 
+
+[https://github.com/Ruddelduddel/Project_Portfolio_2024](https://github.com/Ruddelduddel/Project_Portfolio_2024),
+
+[https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
