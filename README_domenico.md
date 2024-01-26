@@ -84,14 +84,23 @@ For this part of the project we need the Microsoft Power BI software that gives 
 3)  Data download
    
    Download the file via this link: https://www.kaggle.com/code/yantxx/xgboost-binary-classifier-machine-failure/input?select=train.csv
+   
 5)  Read in with Power BI
+   
 Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
-6) Choosing the right elements
+
+7) Choosing the right elements
+
 Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
-7) Using the data columns
+
+9) Using the data columns
+   
 Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
-8) Improve the visualization
+
+11) Improve the visualization
+
 You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.: "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
+
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
 For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
