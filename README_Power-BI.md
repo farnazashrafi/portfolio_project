@@ -121,6 +121,7 @@ with the "column" order always using the numerical features like air temperature
 
 <!-- HEATMAP -->
 ## Heatmap
+The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For the id classes we went into the editor, making an additional column that only showed the first three letters of the ids. Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
 
 <!-- HISTOGRAMS -->
 ## Histograms
