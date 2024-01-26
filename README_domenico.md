@@ -94,7 +94,7 @@ If at least one of the above failure modes is true, the process fails and the 'm
 
 
 
-<!-- Categorical and Binary Features -->
+<!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and Binary Features
 Data preparation is a crucial phase in data science projects, encompassing various steps to ensure that raw data is transformed into a format suitable for analysis and modeling. Starting with the collection of relevant data from diverse sources, the process involves cleaning to handle missing values, outliers, and errors. Exploratory Data Analysis (EDA) is then conducted to gain insights into dataset characteristics, followed by feature engineering to enhance model performance through the creation or modification of features. Further steps include data transformation, handling categorical data, splitting the dataset into training and testing sets, scaling numerical features, and addressing imbalances in the target variable. Validation of the prepared dataset ensures alignment with project goals, contributing to the accuracy and effectiveness of subsequent machine learning or statistical modeling phases.
 <!-- Training_test split -->
