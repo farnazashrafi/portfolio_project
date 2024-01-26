@@ -78,9 +78,11 @@ For this part of the project we need the Microsoft Power BI software that gives 
 <!-- DATA PREPARATION -->
 ## Data preparation
 1) Data description
+
    A further description of the data is available in [https://github.com/farnazashrafi/portfolio_project/blob/main/README_new.md].
 
 3)  Data download
+   
    Download the file via this link: https://www.kaggle.com/code/yantxx/xgboost-binary-classifier-machine-failure/input?select=train.csv
 5)  Read in with Power BI
 Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
