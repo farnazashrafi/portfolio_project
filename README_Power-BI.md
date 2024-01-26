@@ -91,11 +91,13 @@ For this part of the project we need the Microsoft Power BI software that gives 
 
     ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/d7d8a4d0-6e79-4b59-ac5b-5b7385b2bb61)
 
-4) Choosing the right elements
+    IMPORTANT: you have to pay attention to the right comma placement. In a region where dots are not usual as decimal symbol you have to go to the editor via "Daten transformieren" (engl. "transform data") and replace them with commas. Rightclick on the columns "Air Temperature [K]", "Process Temperature [K]", "Torque [Nm]", choose "Werte ersetzen" (engl.: "replace values") and put a "." in the upper and a "," in the lower cell. All dots in these columns are now replaced by commas.
+
+5) Choosing the right elements
 
    Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
 
-5) Using the data columns
+6) Using the data columns
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
 
@@ -140,9 +142,15 @@ https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/jupyter_bo
 
 <!-- HEATMAP -->
 ## Heatmap
-The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For the id classes we went into the editor, making an additional column that only showed the first three letters of the ids. Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
+The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For these variants we went into the editor, making an additional column that only showed the first three letters of the ids: 
+
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/0cda4444-d419-469c-8926-53d50defeded)
+
+Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
 
 ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/fb740435-5651-4297-b663-e1af8934f3da)
+
+The most failures, for almost all features, occured in the variants M19, H33 and L51, whereas the id classes H29, H39 and M14 were reliable because of no machine failures. 
 
 <!-- HISTOGRAMS -->
 ## Histograms
@@ -150,12 +158,14 @@ Two sets of histograms were created, one for both binary features (0 and 1) and 
 
 ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/06f6cb15-4bdf-4ced-86fd-4e8a4ee27a14)
 
-
+The most numerical features have - on both sets - the look of a climate curve. Only exception is the number of machine failures by Tool Wear [min] which has a decreasing curve in the set with both binary features - 0 and 1. In the histogram set with machine failure = 1 however, the number of machine failures is increasing with the tool wear.
 <!-- INFLUENCES -->
 ## Influences
 For the last set of graphics we inspected the size range of the numerical features that had the biggest influence on machine failures. Here we chose the visual "Wichtige Einflussfaktoren" (engl.: important influence factors) with the sum of machine failures in the analysis part and the numerical features in the explanation part. Due to the fact that the tool wear didn't have a direct influence on the machine failures, we used here the sum of tool wear, combined with the normal value, as analysis.
 
 ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/3e3f7827-929c-4576-9f68-a528e75223db)
+
+With 49,36 units more than in the other size classes, and with 30,99 % of all values, a range between 310-312 Kelvin was the process temperature with the biggest influence on the sum of machine failures. On the contrary, the torque between 44 and 56 nanometers, containing 26,5 % of all values, was the torque value with the highest influence on of machine failures, but with just 4,65 units difference to the other size classes very small.  
 
 An oversight of all graphics created for this project you find in the following file:
 
