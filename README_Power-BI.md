@@ -96,8 +96,9 @@ For this part of the project we need the Microsoft Power BI software that gives 
 5) Using the data columns
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if   it is a circle diagram.
+   ![Project Image](./pictures/Power-BI-Visualization.png)
 
-6) Improve the visualization
+7) Improve the visualization
 
    You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.:    "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
 
@@ -133,7 +134,8 @@ For the last set of graphics we inspected the size range of the numerical featur
 
 An oversight of the graphics you find in the following file:
 
-![Project Image](./pictures/Power-BI-Visualization.pdf)
+https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/Power-Bi-Grafix.pdf
+
 ## Built With
 
 - [Python](https://www.python.org/)
