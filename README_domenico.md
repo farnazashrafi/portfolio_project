@@ -87,8 +87,7 @@ For this part of the project we need the Microsoft Power BI software that gives 
    
 3)  Read in with Power BI
    
-    Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose     
-   "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
+    Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose     "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
 
 4) Choosing the right elements
 
