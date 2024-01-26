@@ -91,25 +91,21 @@ For this part of the project we need the Microsoft Power BI software that gives 
 
     ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/d7d8a4d0-6e79-4b59-ac5b-5b7385b2bb61)
 
-5) Choosing the right elements
+4) Choosing the right elements
 
    Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
 
-6) Using the data columns
+5) Using the data columns
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
 
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/f51e8074-a509-46e5-aab6-d9a5ccbf31b4)
-
-7) Improve the visualization
+6) Improve the visualization
 
    You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.:    "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
 For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
-
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/ddafeec6-e02e-4399-a932-5058711cd82b)
 
 
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
