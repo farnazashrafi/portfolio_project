@@ -69,8 +69,8 @@
 
 Introduction
 
-This project was supported by the Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train, had also been used  
-This work is placed in the field of Data Science with application to the area of predictive maintenance. The need to have a way to determine whether or not a particular machine will fail, as well as the nature of the failure, is essential for generation 4.0 industries. The main reason lies behind the following consideration: the repair or replacement of a faulty machine generally requires costs that are much higher than those required for the replacement of a single component. Therefore, the installation of sensors that monitor the state of the machines, collecting the appropriate information, can lead to great savings for industries.
+This project was supported by the Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train, had also been used on  
+
 
 
 <!-- DATA PREPARATION -->
@@ -96,118 +96,31 @@ If at least one of the above failure modes is true, the process fails and the 'm
 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
-Data preparation is a crucial phase in data science projects, encompassing various steps to ensure that raw data is transformed into a format suitable for analysis and modeling. Starting with the collection of relevant data from diverse sources, the process involves cleaning to handle missing values, outliers, and errors. Exploratory Data Analysis (EDA) is then conducted to gain insights into dataset characteristics, followed by feature engineering to enhance model performance through the creation or modification of features. Further steps include data transformation, handling categorical data, splitting the dataset into training and testing sets, scaling numerical features, and addressing imbalances in the target variable. Validation of the prepared dataset ensures alignment with project goals, contributing to the accuracy and effectiveness of subsequent machine learning or statistical modeling phases.
-<!-- Training_test split -->
-### Training_test split
 
-In the initial stages of a data science project, it is recommended to split available data into a training set, focusing on tasks like exploration, cleaning, and feature engineering. At this point, test data specifics might not be defined.
+<!-- ROLE OF PRODUCT QUALITY VARIANTS -->
+## Role of product quality variants
 
-The model should only be fitted to the training set during development, maintaining separation between training and test data. Test data, introduced later, simulates new entries into the data pipeline and evaluates the model's generalization abilities.
+<!-- FEATURE DISTRIBUTIONS -->
+## Feature Distributions
 
-This approach ensures that the model is refined based on the training set's characteristics. The untouched test set is then used for a final evaluation, providing insights into real-world performance and the model's predictive capabilities on new, unseen data.
-In this project we get 20% for test data set and 80% for train data set.
-### Feature Engineering
-#### Data Preprocessing for Model Training
+<!-- HEATMAP -->
+## Heatmap
 
-In the data preprocessing phase, various transformations have been applied to optimize the dataset for model training. The following steps summarize the preprocessing actions:
+<!-- HISTOGRAMS -->
+## Histograms
 
-#### 1. Distribution Categorization
-
-We retained the top 10 distributions with the most data and grouped the remaining distributions into a single category to manage dataset diversity.
-
-#### 2. One-Hot Encoding
-
-Utilized One-Hot Encoding to convert categorical features into a suitable format for model training, particularly effective for non-ordinal categorical variables.
-
-#### 3. Label Encoding for Ordinal Feature
-
-Applied Label Encoding to the "Type" feature using the mapping {'L': 0, 'M': 1, 'H': 2}, preserving the ordinal nature of the categories.
-
-#### 4. Creation of New Feature "Power"
-
-Introduced a new feature, "Power," calculated as the product of torque (τ) and rotational speed (ω). The formula used is P = τ * ω, where P represents power.
-
-#### 5. PCA for Highly Correlated Features
-
-Applied Principal Component Analysis (PCA) to address high correlation between features 'Air_temperature' and 'Process_Temperature.' Extracted 90% of the variance to reduce dimensionality.
-
-#### 6. Feature Selection
-
-Identified and dropped irrelevant or redundant columns to streamline the dataset. Excluded columns are "Product_ID," "Type," "id," and "Torque."
-
-These preprocessing steps contribute to a refined and informative dataset, optimizing it for machine learning algorithms. The combination of encoding techniques, feature creation, and dimensionality reduction enhances model performance and interpretability.
- 
-
-<!-- Model training -->
-## Model training
-In this section, we tested various models like K-Nearest Neighbors (KNN), XGBoost, Logistic Regression, Support Vector Classifier (SVC), Random Forest, and Decision Tree. We carefully trained and evaluated each model, addressing tasks such as data preparation and scaling. A systematic pipeline was followed, and fine-tuning through Grid Search Hyperparameter optimization helped us identify the most effective model among these options. This thorough process boosts our confidence in the chosen model's reliability and performance in the overall evaluation.
-
-![Project Image](./pictures/results_table.jpg)
-
-
-<!-- Model Interpretation -->
-## Model Interpretation
-
-Partial Dependence Plots (PDP) and feature importance analysis provide valuable insights into the relationships between individual features and model predictions.
-
-* Partial Dependence Plots (PDP): PDPs illustrate the impact of a specific feature on the model's predictions while keeping other features constant. By systematically varying the chosen feature and observing its influence on the predicted outcome, PDPs help visualize and interpret the model's behavior.
-
-* Feature Importance Analysis: This analysis quantifies the significance of each feature in influencing the model's predictions. Common methods include calculating feature importances based on tree-based models or permutation importance. Feature importance allows practitioners to identify which features contribute the most to the model's decision-making process.
-
-Together, PDPs and feature importance analysis provide a comprehensive understanding of the relationships between input features and model outcomes, aiding interpretability and guiding further investigations in data science projects.
-
-1) Feature importance
-
-In this diagram, you can see the importance of features based on Gini Impurity in Random Forest model, and as you can see, there are 4 features that have the most influence on dividing target values.
-
-![Project Image](./pictures/feature_importance.jpg)
-
-2) PDP plot
-
-As it can be seen, with the increase in power from 8000 watts, the average probability of machine failure increases.
-
-![Project Image](./pictures/power_pdp.jpg)
-
-You can also see the effect of tool wear with an increase of more than 200 minutes.
-
-![Project Image](./pictures/tool_wear.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<!-- INFLUENCES -->
+## Influences
 
 ## Built With
 
 - [Python](https://www.python.org/)
 - [NumPy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
-- [Scikit-learn](https://scikit-learn.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
 - [Jupyter Notebooks](https://jupyter.org/)
-- [Principal Component Analysis (PCA)](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
-
+- [Power BI](//https://powerbi.microsoft.com/de-de/)
 
 
 
@@ -309,10 +222,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name  - f.ashrafi71@yahoo.com
+Your Name  - domenic-saheb@web.de
 
-Project Link: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project)
-
+Project Links: [https://github.com/farnazashrafi/portfolio_project](https://github.com/farnazashrafi/portfolio_project)
+()
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
