@@ -61,7 +61,11 @@
 6. [Heatmap](#heatmap)
 7. [Histograms](#histograms)
 8. [Influences](#influences)
-9. [Contact](#contact)
+9. [Built With](#built-with)
+10. [Usage](#usage)
+11. [Contributing](#contributing)
+12. [License])(#license)
+13. [Contact](#contact)
 
 
 <!-- ABOUT THE WORK WITH POWER BI -->
