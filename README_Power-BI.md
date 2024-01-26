@@ -96,7 +96,7 @@ For this part of the project we need the Microsoft Power BI software that gives 
 5) Using the data columns
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if   it is a circle diagram.
-   ![Project Image](./pictures/Power-BI-Visualization.jpg)
+   ![Project Image](./pictures/power-BI-visualization.jpg)
 
 7) Improve the visualization
 
