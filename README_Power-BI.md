@@ -87,13 +87,15 @@ For this part of the project we need the Microsoft Power BI software that gives 
    
 3)  Read in with Power BI
    
-    Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose     "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
+    Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose     "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available.
 
-4) Choosing the right elements
+    ![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/d7d8a4d0-6e79-4b59-ac5b-5b7385b2bb61)
+
+5) Choosing the right elements
 
    Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
 
-5) Using the data columns
+6) Using the data columns
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
 
@@ -107,9 +109,15 @@ For this part of the project we need the Microsoft Power BI software that gives 
 ## Categorical and binary features
 For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
 
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/ddafeec6-e02e-4399-a932-5058711cd82b)
+
+
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
 ## Role of product quality variants
 This graphic contained the categorical features (OSF, HDF, PWF, RNF, TWF) on the x-bar, divided in the binary features 0 and 1, and the sum of machine failures on the y-bar. Here, the legend of the sums of machine failures showed us the three types, H-L-M. 
+
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/6ed15f9d-1f80-46cf-81fc-7878a7359d3b)
+
 <!-- FEATURE DISTRIBUTIONS -->
 ## Feature Distributions
 For the Feature Distributions we visualized the five categorical features, with machine failures and types on seven slides á five boxplots, whereas every boxplot is divided into the groups 0 and 1. Using the Jupyter lab and importing several tools this time (import pandas as pd, seaborn as sns,
@@ -125,17 +133,27 @@ with the "column" order always using the numerical features like air temperature
 ## Heatmap
 The Table Heatmap 3.5.0 had been used to compare the categorical features with the id classes. For the id classes we went into the editor, making an additional column that only showed the first three letters of the ids. Back to the Power Bi space we used the features OSF, HDF, PWF, RNF, TWF for the y-bar and the id classes for category. The order from left to right was grouped by the height of the machine failures the id class had on the TWF mode. The tiles with the highest values were on the left side, the lowest ones on the right side. 
 
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/d4aeb467-e15d-4185-9378-95a60b5c3aea)
+
+
 <!-- HISTOGRAMS -->
 ## Histograms
 Two sets of histograms were created, one for both binary features (0 and 1) and one only for feature 1. In every set five histograms (made by Histogram 2.1.1) had been created, one for every numerical feature. This histogram sets worked with number of machine failures as frequency and the values of the numerical features as values. For the two air temperature histograms it was important to filter out three outliers, having much higher values than the other ones and changing the look of the visuals drastically. You could change the number of bars by going to "Visual formatieren", choose common options and change the number of classes (German: "Klassen).
+
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/024e6212-0a01-456a-aa6e-1002227a7626)
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/6f5f9559-216b-42ba-84e4-84b0c5d49b1e)
+
 
 <!-- INFLUENCES -->
 ## Influences
 For the last set of graphics we inspected the size range of the numerical features that had the biggest influence on machine failures. Here we chose the visual "Wichtige Einflussfaktoren" (engl.: important influence factors) with the sum of machine failures in the analysis part and the numerical features in the explanation part. Due to the fact that the tool wear didn't have a direct influence on the machine failures, we used here the sum of tool wear, combined with the normal value, as analysis.
 
-An oversight of the graphics you find in the following file:
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/bd2b5288-8654-4289-a29a-577872ec2b67)
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/6e27cc13-3ee3-4e47-96a4-e313319dee62)
 
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/8a189c20-d568-4acc-bcdc-ec90ab171dab)
+An oversight of all graphics created for this project you find in the following file:
+
+https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/Power-Bi-Grafix.pdf
 
 
 ## Built With
