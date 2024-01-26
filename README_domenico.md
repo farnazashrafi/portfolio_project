@@ -73,35 +73,24 @@
 
 Introduction
 
-This project was supported by the Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train, had also been used for diverse reports on kaggle.com.   
-
-
+For this part of the project we need the Microsoft Power BI software that gives a good help in the exploratory data analysis and visualization. The dataset for this competition, train.csv, had also been used for diverse reports like "XGBoost Binary Classifier" or "Binary Classification of Machine Failures" and is downloadable.
 
 <!-- DATA PREPARATION -->
 ## Data preparation
-1) Data description 
-* Type: consisting of a letter L, M, or H for low, medium and high as product quality variants.
-* air temperature [K]: generated using a random walk process later normalized to a standard deviation of 2 K around 300 K.
-* process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
-* rotational speed [rpm]: calculated from a power of 2860 W, overlaid with a normally distributed noise.
-* Torque [Nm]: torque values are normally distributed around 40 Nm with a Ïƒ = 10 Nm and no negative values.
-* Tool wear [min]: The quality variants H/M/L add 5/3/2 minutes of tool wear to the used tool in the process.
-* Machine failure: whether the machine has failed in this particular datapoint for any of the following failure modes are true. The machine failure consists of five independent failure modes
+1) Data description                                                                                                               A further description of the data is available in [https://github.com/farnazashrafi/portfolio_project/blob/main/README_new.md].
 
-* Tool wear failure (TWF): the tool will be replaced of fail at a randomly selected tool wear time between 200 ~ 240 mins.
-* Heat dissipation failure (HDF): heat dissipation causes a process failure, if the difference between air and process temperature is below 8.6 K and the rotational speed is below 1380 rpm.
-* Power failure (PWF): the product of torque and rotational speed (in rad/s) equals the power required for the process. If this power is below 3500 W or above 9000 W, the process fails.
-* Overstrain failure (OSF): if the product of tool wear and torque exceeds 11,000 minNm for the L product variant (12,000 M, 13,000 H), the process fails due to overstrain.
-* Random failures (RNF): each process has a chance of 0,1 % to fail regardless of its process parameters.
-
-If at least one of the above failure modes is true, the process fails and the 'machine failure' label is set to 1. It is therefore not transparent to the machine learning method, which of the failure modes has caused the process to fail.
-
-2) Download
-3) Power-BI
-
+2)  Data download                                                                                                           Download the file via this link: https://www.kaggle.com/code/yantxx/xgboost-binary-classifier-machine-failure/input?select=train.csv
+3)  Read in with Power BI
+Now we go into the Power BI software and open the csv-file by clicking on "Daten abrufen" (engl.: "recall data"). We choose Text/CSV and choose "train.csv" from the home folder. After showing an example window, we click on "Laden" (engl.: "load") and the data is available. 
+4) Choosing the right elements
+Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
+5) Using the data columns
+Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
+6) Improve the visualization
+You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.: "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
-For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features on the x-bar and the sum machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
+For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
 
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
 ## Role of product quality variants
