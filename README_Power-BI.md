@@ -99,13 +99,15 @@ For this part of the project we need the Microsoft Power BI software that gives 
    
    Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if it is a circle diagram.
 
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/4dc81bd0-2e97-4587-869f-a48b0485f87b)
+
 6) Improve the visualization
 
    You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.:    "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
-For this graphic we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
+For this graphic, as you can see above, we plotted the categorical and binary features as bar diagrams. Therefore we put the categorical features like air temperature on the x-bar and the sum of machine failures on the y-bar, divided in the values 0 (failure=False), and 1 (failure=True). 
 
 
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
