@@ -107,9 +107,17 @@ For this graphic we plotted the categorical and binary features as bar diagrams.
 
 <!-- ROLE OF PRODUCT QUALITY VARIANTS -->
 ## Role of product quality variants
-
+This graphic contained the categorical features (OSF, HDF, PWF, RNF, TWF) on the x-bar, divided in the binary features 0 and 1, and the sum of machine failures on the y-bar. Here, the legend of the sums of machine failures showed us the three types, H-L-M. 
 <!-- FEATURE DISTRIBUTIONS -->
 ## Feature Distributions
+For the Feature Distributions we visualized the five categorical features, with machine failures and types on seven slides á five boxplots, whereas every boxplot is divided into the groups 0 and 1. Using the Jupyter lab and importing several tools this time (import pandas as pd, seaborn as sns,
+numpy as np, matplotlib.pyplot as plt, pickle, sqlalchemy as sa), the following code has been applied for the boxplots:
+    fig, ax = plt.subplots()
+    df.boxplot(column='Process temperature [K]', by='HDF', ax=ax)
+
+    plt.tight_layout(pad=1.0)
+    plt.show()
+with the "column" order always using the numerical features like air temperature, process temperature, tool wear, torque and rotational speed. On the contrary, the categorical features, with type and machine failures themself, had been used for the "by" order.
 
 <!-- HEATMAP -->
 ## Heatmap
