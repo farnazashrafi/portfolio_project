@@ -140,8 +140,7 @@ The Table Heatmap 3.5.0 had been used to compare the categorical features with t
 ## Histograms
 Two sets of histograms were created, one for both binary features (0 and 1) and one only for feature 1. In every set five histograms (made by Histogram 2.1.1) had been created, one for every numerical feature. This histogram sets worked with number of machine failures as frequency and the values of the numerical features as values. For the two air temperature histograms it was important to filter out three outliers, having much higher values than the other ones and changing the look of the visuals drastically. You could change the number of bars by going to "Visual formatieren", choose common options and change the number of classes (German: "Klassen).
 
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/024e6212-0a01-456a-aa6e-1002227a7626)
-![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/6f5f9559-216b-42ba-84e4-84b0c5d49b1e)
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/06f6cb15-4bdf-4ced-86fd-4e8a4ee27a14)
 
 
 <!-- INFLUENCES -->
