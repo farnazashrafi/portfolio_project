@@ -79,7 +79,7 @@ For this part of the project we need the Microsoft Power BI software that gives 
 ## Data preparation
 1) Data description
 
-     A further description of the data is available in [https://github.com/farnazashrafi/portfolio_project/blob/main/README_new.md].
+     A further description of the data is available in: https://github.com/farnazashrafi/portfolio_project/blob/main/README_new.md
 
 2)  Data download
    
@@ -91,15 +91,15 @@ For this part of the project we need the Microsoft Power BI software that gives 
 
 4) Choosing the right elements
 
-Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
+   Go to the "Visuelles Element erstellen" part (engl.: "create visual element) of the Power BI working space. Here you can choose between the histograms, bar diagrams, circles, curves or "Wichtige Einflussfaktoren", showing which values have the biggest influence on the data.
 
 5) Using the data columns
    
-  Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if   it is a circle diagram.
+   Here you can the drag the columns of your table and drop them into the empty working field. Dependent on the kind of graphics, you can also drag the    column into the x-bar or y-bar description of the visuals section or in the "Werte" (engl. "values") and "Legende" (dt. legend) description, e.g., if   it is a circle diagram.
 
 6) Improve the visualization
 
-  You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.:    "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
+   You want to change the size of the graphics, letter colors, change position, etc.? No problem, then click on the button "Visual formatieren" (engl.:    "formatting visual"). You also can change the number of bars in the "Allgemein" (engl.: "common") section. 
 
 <!-- CATEGORICAL AND BINARY FEATURES -->
 ## Categorical and binary features
