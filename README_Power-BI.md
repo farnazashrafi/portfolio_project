@@ -135,7 +135,8 @@ For the last set of graphics we inspected the size range of the numerical featur
 
 An oversight of the graphics you find in the following file:
 
-https://github.com/farnazashrafi/portfolio_project/blob/main/pictures/Power-Bi-Grafix.pdf
+![image](https://github.com/farnazashrafi/portfolio_project/assets/155962705/8a189c20-d568-4acc-bcdc-ec90ab171dab)
+
 
 ## Built With
 
